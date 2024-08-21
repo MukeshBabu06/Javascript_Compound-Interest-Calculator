@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/256/Calculator-icon.png">
+    
+    
+</head>
+
+<body>
+    <main><div class="container">
+        <h1>Compound Interest Calculator</h1>
+        <div class="container1">
+            <div class="input">
+                <form action="" id="InterestCalculator">
+                    <div class="inco">
+                        <label for="Principle">Principle amount ($)</label>
+                        <input type="number" id="Principle" name="Principle" placeholder="enter principle amount" required>
+                    </div>
+                    <div class="inco">
+                        <label for="Interest">Interest Rate (p.a) (%)</label>
+                        <input type="number" id="Interest" name="Interest" required placeholder="enter interest rate">
+                    </div>
+                    <div class="inco">
+                        <label for="Years">Time period</label>
+                        <input type="number" id="Years" maxlength="24" required placeholder="enter total years">
+                    </div>
+                    <div class="buton">
+                        <button type="button" onclick="calcint()">Calculate</button>
+                        <button type="button" onclick="reset()">Reset</button>
+
+                    </div>
+                </form>
+            </div>
+            <div class="output">
+                <p>Principle amount</p>
+                <p id="firstamount" class="res">₹ 0</p>
+                <p>Total interest</p>
+                <p id="TotInt" class="res">₹ 0</p>
+                <p>Total amount</p>
+                <p id="TotAmt" class="res">₹ 0</p>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div>
+            <p>Unlike simple interest, compound interest allows you to earn interest on the complete amount you invest, which is the sum of your capital and interest. This results in an exponential increase in your wealth. The applications of compound interest are virtually limitless in mathematics. It is the lifeblood of most modern businesses. To be sure they are getting the correct return on investment, one needs a trustworthy compound interest calculator.
+            </p>
+        </div>
+        <div>
+            <h3>How can a Compound Interest Calculator Help You?</h3>
+            <p>A worldwide standard technique for calculating the total amount of compound interest accumulated. The equation is </p>
+
+            <h3>A = P (1 + r/n) ^nt </h3>
+
+            <p>The following are the variables in the formula:</p>
+
+            <table border="1px">
+
+                <tr>
+                    <td>P</td>
+                    <td>Principal Amount</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Compound interest</td>
+                </tr>
+                <tr>
+                    <td>R/r</td>
+                    <td>Rate of interest</td>
+                </tr>
+                <tr>
+                    <td>N/n</td>
+                    <td>Number of times interest compounds in a year</td>
+                </tr>
+                <tr>
+                    <td>T/t</td>
+                    <td>Number of years</td>
+                </tr>
+            </table>
+
+            <p>
+                For instance, the first year's returns on an investment of Rs. 50,000 with a five-year 10% annual interest rate would be Rs. 5,000 (50,000 x 10/100).
+
+                <br>
+                <br>
+                The interest rate for the second year will be based on Rs. 50,000 plus Rs. 5000, or Rs. 55,000. There will be a 5550 rupee interest.
+                <br>
+                <br>
+                The sum will be Rs 6055 during the third year and so forth.
+                <br>
+                <br>
+                It goes without saying that manually calculating these numbers is challenging. For this reason, a compound interest calculator in India is necessary to facilitate the process.
+            </p>
+
+            <h3>How to Use Compound Interest Formula Calculator?</h3>
+            <p>Using calculator is easy when you remember these easy steps.
+            <ul>
+                <li>Enter the principal, rate, and tenor you wish to calculate compound interest for</li>
+                <li>The calculator will display the results within seconds. </li>
+            </ul>
+            </p>
+            <h3>Advantages of using compound interest calculator</h3>
+            <p>It provides you with an accurate compound interest calculator for unlimited use. It is ideal for daily use thanks to –</p>
+            <ul>
+                <li>Ease of use.</li>
+                <li>Reliability and accuracy.</li>
+                <li>Data security.</li>
+            </ul>
+            <p>You can use a variety of additional calculators in addition to the compound interest calculator, as shown below. Every calculator we offer is perfect for daily usage and is measured against the industry's best.</p>
+            </p>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>&copy2024 | Design by Mukesh | All Right Reserved.</p>
+</footer>
+    <script src="/index.js"></script>
+</body>
+
+</html>
